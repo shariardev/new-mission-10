@@ -1,0 +1,114 @@
+/* 
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+*/
+ /* common css*/
+body{
+    font-family: "Open Sans", sans-serif;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style-type: none;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+.flex{
+    display: flex;
+}
+
+.text-center{
+    text-align: center;
+}
+/* common css End */
+
+/* Nav Section Css Start */
+#nav{
+    background-color: #02918c;
+    
+}
+
+
+#nav .container{
+    justify-content: space-between;
+    align-items: center;
+}
+
+#nav li a{
+    font-size: 12px;
+    color: #ffffff;
+    text-transform: uppercase;
+    padding: 10px 25px;
+    font-weight: 800;
+    display: inline-block;
+    transition: .4s;
+}
+#nav li a:hover{
+    background-color: rgb(209, 151, 42);
+
+}
+/* Nav Section Css End */
+
+/* Banner section css start */
+#banner{
+    background-image: url("https://scontent.xx.fbcdn.net/v/t1.15752-9/430933493_379048378385771_6350939529544261397_n.png?stp=dst-png_p206x206&_nc_cat=104&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeF6MHjoKw-qXZE8O0cwjG6tK93SSwXDYxgr3dJLBcNjGBSBgHheoie6CrJBU3BavXcK6ieBQ848P0Un4x0mSKNy&_nc_ohc=MvTvnHA5dw0AX9X15QW&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdQIb6p0GEoCOj6l6oQ6g10tdUR6dAy9_k10VTLQ_Pb_KQ&oe=661BF45D");
+    height: 728px;
+    color: #ffffff;
+    display: flex;
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#banner h3{
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 25px;
+}
+#banner h1{
+    font-size: 68px;
+    line-height: 75px;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 18px;
+}
+#banner p{
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: 400;
+  
+}
+
+#banner img{
+        display: block;
+        margin: auto;
+        line-height: 25px;
+
+}
+#banner a{
+    background-color: #cfc91d;
+    color: rgb(0, 0, 0);
+    line-height: 85px;
+    padding: 15px;
+}
+#banner a:hover{
+    background-color: blueviolet;
+    transition: .8s;
+}
+.text-center{
+    text-align: center;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+/* Banner section css start end */
